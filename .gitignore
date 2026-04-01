@@ -1,0 +1,24 @@
+# Dependencias y builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+
+# Entorno (no subir secretos)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Logs y OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
