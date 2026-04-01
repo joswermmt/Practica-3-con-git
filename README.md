@@ -94,7 +94,7 @@ Si el backend está conectado a la base y la migración creó la tabla, el arran
 ## Git y Git Flow
 
 - El repositorio **no debe** incluir `node_modules` ni `.env` con secretos (`.gitignore` en la raíz).
-- Para flujos con ramas `feature/*`, `hotfix/*` y PRs hacia `developer`, `qa` y `main`, revisa `gitflow-setup.sh` (Git Bash) o `gitflow-setup.txt` (PowerShell).
+- Para flujos con ramas `feature/*`, `hotfix/*` y PRs hacia `developer`, `qa` y `main`, revisa `gitflow-setup.sh` (Git Bash).
 
 ## Licencia
 
