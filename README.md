@@ -14,8 +14,6 @@ Practica 3/
 ├── frontend/          # SPA React (Vite)
 ├── backend/           # API REST (Express + TypeORM opcional)
 ├── run-all.bat        # Arranca backend y frontend en Windows
-├── gitflow-setup.sh   # Automatización Git Flow + PRs (Bash)
-└── gitflow-setup.txt  # Misma lógica en PowerShell (referencia)
 ```
 
 ## Puesta en marcha rápida (Windows)
@@ -94,7 +92,7 @@ Si el backend está conectado a la base y la migración creó la tabla, el arran
 ## Git y Git Flow
 
 - El repositorio **no debe** incluir `node_modules` ni `.env` con secretos (`.gitignore` en la raíz).
-- Para flujos con ramas `feature/*`, `hotfix/*` y PRs hacia `developer`, `qa` y `main`, revisa `gitflow-setup.sh` (Git Bash).
+- Para flujos con ramas `feature/*`, `hotfix/*` y PRs hacia `developer`, `qa` y `main`.
 
 ## Licencia
 
